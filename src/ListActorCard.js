@@ -55,9 +55,9 @@ export class ListActorCard extends LitElement {
     return html`
       <div class="overflow-actor" style="height: ${this.height}px; width:${this.width}px">
       <div class="row row-cols-1 row-cols-sm-4 g-4">
-      ${this.dataList.listActors.map(
+      ${this.dataList.cast.map(
         (i) =>
-        html`<actor-card .name=${i.name} .img=${i.img} .role=${i.role} /></actor-card>`
+        html`<actor-card .name=${i.name} .img='https://image.tmdb.org/t/p/original${i.img}' .role=${i.character} /></actor-card>`
     )}
       </div>
       </div>

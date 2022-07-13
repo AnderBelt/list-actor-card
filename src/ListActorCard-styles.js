@@ -11139,4 +11139,8 @@ textarea.form-control-lg {
   overflow-y: scroll;
   overflow-x: hidden;
 }
+
+.overflow-actor {
+  padding: 10px;
+}
 `;
