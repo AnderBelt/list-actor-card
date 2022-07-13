@@ -1,0 +1,1 @@
+export { ListActorCard } from './src/ListActorCard.js';
