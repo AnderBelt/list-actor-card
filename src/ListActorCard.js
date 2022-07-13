@@ -53,7 +53,7 @@ export class ListActorCard extends LitElement {
   // Define a template
   render() {
     return html`
-      <div class="overflow-actor" style="height: ${this.height}px; width:${this.width}px">
+      <div class="overflow-actor" style="height: ${this.dataList.height}px; width:${this.dataList.width}px">
       <div class="row row-cols-sm-3 row-cols-2 row-cols-lg-3">
       ${this.dataList.cast.map(
         (i) =>
