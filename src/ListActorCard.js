@@ -57,7 +57,7 @@ export class ListActorCard extends LitElement {
       <div class="row row-cols-sm-3 row-cols-2 row-cols-lg-3">
       ${this.dataList.cast.map(
         (i) =>
-        html`<actor-card .name=${i.name} .img='https://image.tmdb.org/t/p/original${i.img}' .role=${i.character} /></actor-card>`
+        html`<actor-card .name=${i.name} .img='https://image.tmdb.org/t/p/original${i.profile_path}' .role=${i.character} /></actor-card>`
     )}
       </div>
       </div>
